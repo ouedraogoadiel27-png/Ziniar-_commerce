@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Ziniaré Commerce</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- MENU -->
+    <header>
+        <div class="container nav">
+
+            <a href="#" class="logo">
+                Ziniaré<span>Commerce</span>
+            </a>
+
+            <nav>
+                <a href="#accueil">Accueil</a>
+                <a href="#produits">Produits</a>
+                <a href="#contact">Contact</a>
+            </nav>
+
+            <button class="cart-button">
+                🛒 Panier <span id="cart-count">0</span>
+            </button>
+
+        </div>
+    </header>
+
+
+    <!-- ACCUEIL -->
+    <section id="accueil" class="hero">
+
+        <div class="container hero-content">
+
+            <div class="hero-text">
+
+                <span class="badge">
+                    📍 Ziniaré, Burkina Faso
+                </span>
+
+                <h1>
+                    Vos produits préférés,
+                    <span>près de chez vous.</span>
+                </h1>
+
+                <p>
+                    Découvrez notre catalogue et commandez
+                    facilement depuis votre téléphone.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#produits" class="btn primary">
+                        Voir les produits
+                    </a>
+
+                    <a href="#contact" class="btn secondary">
+                        Nous contacter
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="hero-card">
+
+                <div class="hero-icon">
+                    🛍️
+                </div>
+
+                <h3>Commande simple</h3>
+
+                <p>
+                    Choisissez vos produits et contactez
+                    facilement notre boutique.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- PRODUITS -->
+    <section id="produits" class="products-section">
+
+        <div class="container">
+
+            <div class="section-title">
+                <span>Notre catalogue</span>
+                <h2>Nos produits</h2>
+                <p>Découvrez nos produits disponibles.</p>
+            </div>
+
+
+            <div class="products-grid">
+
+                <!-- PRODUIT 1 -->
+                <article class="product">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800"
+                        alt="Montre"
+                    >
+
+                    <div class="product-info">
+
+                        <h3>Montre élégante</h3>
+
+                        <p>
+                            Montre moderne pour homme.
+                        </p>
+
+                        <div class="product-bottom">
+
+                            <strong>15 000 F</strong>
+
+                            <button>
+                                Ajouter
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PRODUIT 2 -->
+                <article class="product">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=800"
+                        alt="Chaussures"
+                    >
+
+                    <div class="product-info">
+
+                        <h3>Chaussures sport</h3>
+
+                        <p>
+                            Chaussures confortables et modernes.
+                        </p>
+
+                        <div class="product-bottom">
+
+                            <strong>20 000 F</strong>
+
+                            <button>
+                                Ajouter
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PRODUIT 3 -->
+                <article class="product">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=800"
+                        alt="Sac"
+                    >
+
+                    <div class="product-info">
+
+                        <h3>Sac moderne</h3>
+
+                        <p>
+                            Sac pratique pour le quotidien.
+                        </p>
+
+                        <div class="product-bottom">
+
+                            <strong>12 500 F</strong>
+
+                            <button>
+                                Ajouter
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact">
+
+        <div class="container">
+
+            <h2>Contactez-nous</h2>
+
+            <p>📞 +226 XX XX XX XX</p>
+
+            <p>📍 Ziniaré, Burkina Faso</p>
+
+        </div>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <div class="container">
+
+            <p>
+                © 2026 Ziniaré Commerce
+            </p>
+
+        </div>
+
+    </footer>
+  <!-- PANIER -->
+<div id="cart-panel" class="cart-panel">
+
+    <div class="cart-header">
+        <h2>🛒 Mon panier</h2>
+
+        <button id="close-cart">✕</button>
+    </div>
+
+    <div id="cart-items">
+        <p class="empty-cart">Votre panier est vide.</p>
+    </div>
+
+    <div class="cart-footer">
+
+        <div class="cart-total">
+            <span>Total :</span>
+            <strong id="cart-total">0 F</strong>
+        </div>
+
+        <button id="order-whatsapp">
+            📱 Commander sur WhatsApp
+        </button>
+
+    </div>
+
+</div>
+  
+<script src="script.js"></script>
+  
+</body>
+  
+              </html>
